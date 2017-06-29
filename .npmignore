@@ -1,0 +1,8 @@
+node_modules
+*.tmp
+*.swp
+*.so
+*.exe
+.gitignore
+.npmignore
+

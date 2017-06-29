@@ -1,0 +1,31 @@
+{
+  "name": "generate",
+  "version": "0.1.0",
+  "description": "Project scafolding generator.",
+  "author": "Jason Kumpf <jason@kumpf.io> (https://contd.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/contd/generate/issues"
+  },
+  "homepage": "https://github.com/contd/generate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "inquirer": "^3.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/contd/generate.git"
+  },
+  "keywords": [
+    "webpack",
+    "es6",
+    "starter",
+    "library"
+  ],
+	"bin": {
+		"generate": "./index.js"
+	}
+}

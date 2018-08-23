@@ -1,0 +1,15 @@
+{
+  "esversion": 6,
+  "asi": true,
+  "boss": true,
+  "eqnull": true,
+  "expr": true,
+  "funcscope": true,
+  "loopfunc": true,
+  "smarttabs": true,
+  "node": true,
+  "browser": true,
+  "undef": true,
+  "unused": true,
+  "curly": true
+}

@@ -2,15 +2,24 @@
   "name": "npm-package",
   "version": "0.1.0",
   "description": "Starter package a module for npm in commonjs, es2015, umd with babel and rollup",
-  "author": "Jason Kumpf <jason@kumpf.io> (https://kumpf.io/)",
+  "private": true,
+  "author": {
+    "name": "Jason Kumpf",
+    "email": "kumpf.jason@gmail.com",
+    "url": "https://jasonkumpf.com/"
+  },
   "license": "MIT",
-  "homepage": "https://github.com/contd/npm-package",
   "repository": {
     "type": "git",
-    "url": "https://github.com/contd/npm-package.git"
+    "url": "git@github.com:contd/generate.git"
+  },
+  "homepage": "https://github.com/contd/generate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/contd/generate.git"
   },
   "bugs": {
-    "url": "https://github.com/contd/npm-package/issues"
+    "url": "https://github.com/contd/generate/issues"
   },
   "keywords": [
     "npm",

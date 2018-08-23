@@ -1,0 +1,38 @@
+{
+  "name": "express-es6-rest-api",
+  "version": "0.3.0",
+  "private": true,
+  "description": "Express ES6 REST API boilerplate",
+  "keywords": ["express", "es6", "rest", "api"],
+  "author": "Jason Kumpf <jason@kumpf.io> (https://kumpf.io/)",
+  "license": "MIT",
+  "main": "dist",
+  "scripts": {
+    "dev": "nodemon -w src --exec \"babel-node src\"",
+    "build": "babel src -s -D -d dist --presets es2015,stage-0",
+    "start": "node dist",
+    "prestart": "npm run -s build",
+    "test": "eslint src"
+  },
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "compression": "^1.5.2",
+    "cors": "^2.7.1",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "method-override": "^2.3.10",
+    "morgan": "~1.9.0",
+    "mysql": "^2.15.0",
+    "node-sass-middleware": "0.9.8",
+    "nunjucks": "^3.0.1",
+    "resource-router-middleware": "^0.6.0",
+    "serve-favicon": "~2.4.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-core": "^6.9.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^3.1.1",
+    "nodemon": "^1.9.2"
+  }
+}

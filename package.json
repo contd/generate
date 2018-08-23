@@ -1,6 +1,6 @@
 {
-  "name": "generate",
-  "version": "0.1.0",
+  "name": "@cont/generate",
+  "version": "0.1.1",
   "description": "Project scafolding generator.",
   "author": "Jason Kumpf <jason@kumpf.io> (https://contd.github.io/)",
   "license": "MIT",
@@ -25,7 +25,7 @@
     "starter",
     "library"
   ],
-	"bin": {
-		"generate": "./index.js"
-	}
+  "bin": {
+    "generate": "./index.js"
+  }
 }

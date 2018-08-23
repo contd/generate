@@ -1,0 +1,25 @@
+{
+  "name": "npm-project",
+  "version": "0.1.0",
+  "description": "Simpler npm project starter for more utility purpose",
+  "private": true,
+  "main": "index.js",
+  "author": {
+    "name": "Jason Kumpf",
+    "email": "kumpf.jason@gmail.com",
+    "url": "https://jasonkumpf.com/"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:contd/generate.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}

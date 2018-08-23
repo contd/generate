@@ -1,0 +1,51 @@
+/* BIJOU CSS */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);
+@import "variables";
+@import "links";
+@import "grid";
+@import "typography";
+@import "table";
+@import "buttons";
+@import "navbar";
+@import "alerts";
+@import "responsive";
+
+body {
+  margin-top: 60px;
+}
+
+.light {
+  background: #ccc;
+  color: #333;
+}
+
+.dark {
+  background: #333;
+  color: #ccc;
+}
+
+.divider {
+  width: 100%;
+  background: #ccc;
+  height: 1px;
+  margin: 25px 0;
+}
+
+.badge {
+  font-size: 0.9em;
+  padding: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.row {
+  li {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.strikeout {
+  text-decoration: line-through;
+  color: #ccc;
+}
